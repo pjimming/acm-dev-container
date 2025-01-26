@@ -27,7 +27,7 @@
         "code-runner.saveFileBeforeRun": true,
         "fastolympiccoding.runSettings": {
           ".cpp": {
-            "compileCommand": "g++ -std=gnu++20 -D_GLIBCXX_DEBUG ${path:${file}} -o ${path:${fileDirname}/${fileBasenameNoExtension}${exeExtname}}",
+            "compileCommand": "g++ -std=c++20 -D_GLIBCXX_DEBUG ${path:${file}} -o ${path:${fileDirname}/${fileBasenameNoExtension}${exeExtname}}",
             "runCommand": "${path:${fileDirname}/${fileBasenameNoExtension}${exeExtname}}"
           }
         }
